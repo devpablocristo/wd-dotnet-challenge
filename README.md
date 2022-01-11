@@ -1,19 +1,39 @@
-# Welcome to the WeDevelop .NET challenge 🚀
+# Welcome to the WeDevelop Python challenge 🚀
 
-## Create the frontend for a bookstore
+## Create a web service for the bookstore inventory
 
 ### Requirements
 
-1. Show:
-    * 1.1 Book title.
-    * 1.2 Book price.
-    * 1.3 Book image.
-    * 1.4 Use this API to get the books: https://api.itbook.store/1.0/new
-2. Styles:
-    * 2.1 Show the books in three columns.
-3. Must be responsive.
-4. Create a login form, it must validate:
-    * 4.1 User: admin
-    * 4.2 Password: 12345
+1. Add books.
+2. List all books.
+3. Get a specific book.
+4. Edit a specific book. 
+5. Delete n copies of a specific book.
 
-#### Use the existing project to complete requirements
+#### NOTE
+
+You will find a incomplete script, use it to start.
+
+### Details
+
+1. Inventory’s structure:
+    * 1.1 Book’s title.
+    * 1.2 Book’s stock (number of book copies in inventory of this specific book).
+2. Your app should be able to handle this code to add more books to the bookstore.
+
+``` json
+[ 
+    {
+        "title": "Fundation",
+        "stock": 1
+    },
+    {
+        "title": "The Lord of the Rings",
+        "stock": 5
+    }
+]
+```
+
+Enjoy!
+
+#### Use the existing projecto to complete requirements
