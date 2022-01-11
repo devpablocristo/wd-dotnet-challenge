@@ -1,4 +1,4 @@
-# Welcome to the WeDevelop Python challenge 🚀
+# Welcome to the WeDevelop .NET challenge 🚀
 
 ## Create a web service for the bookstore inventory
 
