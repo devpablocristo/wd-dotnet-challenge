@@ -2,11 +2,11 @@
 
 ## Create a REST API for a bookstore
 
-## Create a web service for the bookstore inventory
+### Create a web service for the bookstore inventory
 
-### Requirements
+#### Requirements
 
-#### Use the existing project to complete requirements
+##### Use the existing project to complete requirements
 
 1. AddBooks: Add n copies of a n books.
 2. ListBooks: List all books.
