@@ -42,9 +42,7 @@
     ]
     ```
 
-#### Extra
-
-***Only try this if you have finished all the previous tasks***
+#### ***Extra: Only try this if you have finished all the previous tasks***
 
 1. Make it a singleton.
 
