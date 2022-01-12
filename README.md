@@ -11,7 +11,7 @@
 1. AddBooks: Add n copies of a n books.
 2. ListBooks: List all books.
 
-### Details
+#### Details
 
 1. Inventory’s structure:
     * 1.1 Book’s title.
