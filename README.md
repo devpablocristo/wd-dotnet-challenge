@@ -6,7 +6,7 @@
 
 #### Requirements
 
-##### Use the existing project to complete requirements 
+##### Use the existing project to complete requirements
 
 1. AddBooks: Add n copies of a n books.
 2. ListBooks: List all books.
@@ -42,6 +42,12 @@
     ]
     ```
 
-#### You have 30 minutes to finish the tasks
+#### Extra
+
+Only try this if you have finsh all the previous tasks
+
+1. Make it a singleton.
+
+#### You have 30 minutes to finish
 
 Happy Coding!

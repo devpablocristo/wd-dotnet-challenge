@@ -12,24 +12,21 @@ namespace BookStore
 {
     public class Program
     {
-        public static List<Book> BookStorage = new List<Book>();
-        public static void Main(string[] args)
-        {
+        public static List<Book> Inventory = new List<Book>();
+        public static void Main(string[] args) {
             //Adding some sqmpleData
-            BookStorage  = new List<Book>(){ 
-                new Book() { Title = "Lord Of the Rings", stock = 10 },
-                new Book() { Title = "Harry Potter", stock = 20 },
-                new Book() { Title = "Hunger Games", stock = 30},
-                new Book() { Title = "The Martian", stock = 40 }};
-
+            Inventory  = new List<Book>(){ 
+                new Book() { Title = "Lord of the Rings", Stock = 10 },
+                new Book() { Title = "Harry Potter", Stock = 20 },
+                new Book() { Title = "Hunger Games", Stock = 30},
+                new Book() { Title = "The Martian", Stock = 40 }};
 
             CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
+                .ConfigureWebHostDefaults(webBuilder => {
                     webBuilder.UseStartup<Startup>();
                 });
     }

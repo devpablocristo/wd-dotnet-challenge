@@ -7,29 +7,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BookStore.Controllers
+namespace BookStore.Controllers 
 {
     [ApiController]
     [Route("[controller]")]
-    public class BookController : ControllerBase
+    public class BookController : ControllerBase 
     {
+        /// <summary>
+        /// Returns all the existing books
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public List<Book> ListBooks() 
+        {
+            
+        }       
+       
         /// <summary>
         /// Adds a list of books
         /// </summary>
         /// <param name="bookList"></param>
         /// <returns></returns>
         [HttpPost]
-        public ActionResult<string> AddBooks( [FromBodyAttribute] List<Book> bookList ) {
+        public ActionResult<string> AddBooks( [FromBodyAttribute] List<Book> bookList ) 
+        {
 
         }
         
-        /// <summary>
-        /// Returns all the existing books
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet]
-        public List<Book> ListBooks() {
-            
-        }
+
     }
 }
