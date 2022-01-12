@@ -6,18 +6,19 @@
 
 #### Use the existing project to complete requirements
 
-1. Add n copies of a specific books.
-2. List all books.
-3. Get a specific book.
-4. Edit a specific book.
-5. Delete n copies of a specific book.
+1. AddBooks: Add n copies of a n books.
+2. ListBooks: List all books.
 
 ### Details
 
 1. Inventory’s structure:
     * 1.1 Book’s title.
     * 1.2 Book’s stock (number of book copies in inventory of this specific book).
-2. Your app must be able to handle this code to add or delete books from the bookstore.
+2. Book titles are unique:
+    * 2.1 If n books have the same title, you must consider them as the same book.
+    * 2.2 If n books have different titles, you must consider them as different books.
+3. n > 0.
+4. Your app must be able to handle this code to add the books to the bookstore.
 
     ``` json
     [ 
@@ -32,4 +33,4 @@
     ]
     ```
 
-Enjoy!
+Happy Coding!
