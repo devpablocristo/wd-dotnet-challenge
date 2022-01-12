@@ -30,7 +30,6 @@ namespace BookStore.Controllers
         [HttpGet]
         public List<Book> ListBooks() {
             
-            return Program.BookStorage;
         }
     }
 }

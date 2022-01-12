@@ -30,6 +30,14 @@
         {
             "title": "The Lord of the Rings",
             "stock": 5
+        },
+        {
+            "title": "1984",
+            "stock": 2
+        },
+        {
+            "title": "1984",
+            "stock": 10
         }
     ]
     ```

@@ -16,10 +16,11 @@ namespace BookStore
         public static void Main(string[] args)
         {
             //Adding some sqmpleData
-            BookStorage  = new List<Book>(){ new Book() { Title = "Lord Of the Rings", stock = 10 },
-                new Book() { Title = "Harry Potter", stock = 10 },
-                new Book() { Title = "Hunger Games", stock = 50},
-                new Book() { Title = "The Martian", stock = 20 }};
+            BookStorage  = new List<Book>(){ 
+                new Book() { Title = "Lord Of the Rings", stock = 10 },
+                new Book() { Title = "Harry Potter", stock = 20 },
+                new Book() { Title = "Hunger Games", stock = 30},
+                new Book() { Title = "The Martian", stock = 40 }};
 
 
             CreateHostBuilder(args).Build().Run();
