@@ -44,7 +44,7 @@
 
 #### ***Extra: Only try this if you have finished all the previous tasks***
 
-1. Make it a singleton.
+1. Create a unit test.
 
 #### You have 30 minutes to finish
 
