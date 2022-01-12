@@ -11,6 +11,12 @@
 1. AddBooks: Add n copies of a n books.
 2. ListBooks: List all books.
 
+#### Extra
+
+##### Do it only if you have finished all the previous tasks
+
+1. Create a unit test.
+
 #### Details
 
 1. Inventory’s structure:
@@ -42,9 +48,7 @@
     ]
     ```
 
-#### *Extra: do it only if you have finished all the previous tasks*
 
-1. *Create a unit test.*
 
 #### You have 30 minutes to finish
 
