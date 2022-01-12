@@ -44,10 +44,10 @@
 
 #### Extra
 
-Only try this if you have finished all the previous tasks
+***Only try this if you have finished all the previous tasks***
 
 1. Make it a singleton.
 
-## You have 30 minutes to finish
+#### You have 30 minutes to finish
 
 Happy Coding!
