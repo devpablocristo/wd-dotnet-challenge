@@ -6,7 +6,7 @@
 
 #### Requirements
 
-##### Use the existing project to complete requirements
+##### You can use the existing project to complete requirements or start a new from scratch
 
 1. AddBooks: Add n copies of a n books.
 2. ListBooks: List all books.
@@ -19,8 +19,7 @@
 2. Book titles are unique:
     * 2.1 If n books have the same title, you must consider them as the same book.
     * 2.2 If n books have different titles, you must consider them as different books.
-3. n > 0.
-4. Your app must be able to handle this code to add the books to the bookstore.
+3. Your app must be able to handle this code to add the books to the bookstore.
 
     ``` json
     [ 
