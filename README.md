@@ -42,7 +42,7 @@
     ]
     ```
 
-#### *Extra: Only try this if you have finished all the previous tasks*
+#### *Extra: only try this if you have finished all the previous tasks*
 
 *1. Create a unit test.*
 
