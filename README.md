@@ -1,5 +1,8 @@
 # Welcome to the WeDevelop .NET challenge 🚀
 
-* Use the existing project to complete requirements
+## Requirements
+
+1. Clone the project.
+2. Use the existing project to complete the tasks.
 
 ## Happy Coding!
